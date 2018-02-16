@@ -3,10 +3,6 @@ version:  0.1
 phases:
   install:
     commands:
-
-      # Install additional npm modules
-      - npm install
-
       # Install jq
       - apt-get update && apt-get install -y jq
 
